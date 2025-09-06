@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-gh-primary: #3F72AF;
+  --color-gh-hover: #112D4E;
+  --color-gh-secondary: #DBE2EF;
+  --color-gh-tertiary: #F9F7F7;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter-sans);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --font-inter-sans: 'Inter', sans-serif;
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+.hero-bg {
+  background-color: var(--color-gh-secondary);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Estilo para a animação do FAQ */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
