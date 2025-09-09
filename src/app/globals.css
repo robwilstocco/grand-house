@@ -31,10 +31,3 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-/* Estilo para a animação do FAQ */
-.faq-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
-}
