@@ -10,6 +10,21 @@ const interSans = Inter({
 export const metadata: Metadata = {
   title: "Clínica Grand House",
   description: "Clínica Grand House - Cuidado e Acolhimento",
+  openGraph: {
+    title: "Clínica Grand House",
+    description: "Clínica Grand House - Cuidado e Acolhimento",
+    url: "https://www.clinicagrandhouse.com.br",
+    siteName: "Clínica Grand House",
+    locale: "pt_BR",
+    type: "website",
+  },
+  alternates: {
+    canonical: "/",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
