@@ -12,7 +12,10 @@
   "dependencies": {
     "next": "15.5.2",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "@sanity/client": "^6",
+    "next-sanity": "^5",
+    "sanity": "^3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

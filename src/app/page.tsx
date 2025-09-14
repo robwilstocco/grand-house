@@ -9,6 +9,8 @@ import Depoimentos from "./components/sections/Depoimentos";
 import FamiliaresFAQ from "./components/sections/FamiliaresFAQ";
 import Contato from "./components/sections/Contato";
 
+export const revalidate = 60;
+
 export default function Home() {
   return (
     <>
